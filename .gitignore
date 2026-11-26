@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model weights — retrain locally or download separately (see README)
+# LoRA adapter is kept (small, 9 MB) because it is needed at runtime
+models/word_model.pt
+models/alphabet_model.joblib
+
+# Large binary datasets — not needed to run the app; regenerate with extract_keypoints.py
+data/include50/keypoints/
+data/alphabet/landmarks.npz
+data/alphabet/Indian/
+
+# Sign-clip videos are needed at runtime but exceed GitHub file-size limits.
+# Use Git LFS or host them separately and document the download steps in README.
+data/sign_clips/
+
+# Test audio sample
+test.wav
+
+# Generated / OS files
+run_camera.command
+.DS_Store
+results/camera_error.log
+
+# Secrets — never commit
+.env
+*.env

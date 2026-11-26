@@ -1,0 +1,9 @@
+model,src,tgt,n,bleu,chrf++
+indictrans2-dist-200M,eng_Latn,hin_Deva,100,48.11,63.76
+indictrans2-dist-200M,hin_Deva,eng_Latn,100,51.26,69.48
+indictrans2-dist-200M,eng_Latn,pan_Guru,100,39.81,52.77
+indictrans2-dist-200M,pan_Guru,eng_Latn,100,38.15,63.68
+indictrans2-dist-200M,eng_Latn,ben_Beng,100,37.3,49.74
+indictrans2-dist-200M,ben_Beng,eng_Latn,100,33.26,58.54
+indictrans2-dist-200M,pan_Guru,ben_Beng,100,26.96,42.55
+indictrans2-dist-200M,ben_Beng,pan_Guru,100,28.29,43.12

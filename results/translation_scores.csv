@@ -1,0 +1,9 @@
+model,src,tgt,n,bleu,chrf++
+nllb-600M,eng_Latn,hin_Deva,100,40.98,58.51
+nllb-600M,hin_Deva,eng_Latn,100,44.55,65.31
+nllb-600M,eng_Latn,pan_Guru,100,36.36,48.44
+nllb-600M,pan_Guru,eng_Latn,100,42.95,63.05
+nllb-600M,eng_Latn,ben_Beng,100,32.8,47.03
+nllb-600M,ben_Beng,eng_Latn,100,37.47,58.42
+nllb-600M,pan_Guru,ben_Beng,100,28.5,42.55
+nllb-600M,ben_Beng,pan_Guru,100,28.98,41.78

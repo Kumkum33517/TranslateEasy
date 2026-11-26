@@ -1,0 +1,9 @@
+model,src,tgt,n,bleu,chrf++
+nllb-600M-lora-pa-bn,eng_Latn,hin_Deva,100,40.46,57.82
+nllb-600M-lora-pa-bn,hin_Deva,eng_Latn,100,44.78,64.87
+nllb-600M-lora-pa-bn,eng_Latn,pan_Guru,100,34.16,46.77
+nllb-600M-lora-pa-bn,pan_Guru,eng_Latn,100,42.03,62.25
+nllb-600M-lora-pa-bn,eng_Latn,ben_Beng,100,30.69,45.3
+nllb-600M-lora-pa-bn,ben_Beng,eng_Latn,100,37.0,57.91
+nllb-600M-lora-pa-bn,pan_Guru,ben_Beng,100,27.95,41.48
+nllb-600M-lora-pa-bn,ben_Beng,pan_Guru,100,27.35,40.49
