@@ -21,6 +21,8 @@ A Streamlit app combining **text/voice translation** across 6 Indian languages w
 
 ## Architecture
 
+![System Architecture](results/system_architecture.png)
+
 ```
 app.py  (Streamlit UI)
 │
