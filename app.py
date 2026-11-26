@@ -16,8 +16,8 @@ from voice.sarvam_voice import transcribe, speak
 
 ROOT = Path(__file__).parent.resolve()
 
-st.set_page_config(page_title="Indian Language + ISL Assistant", layout="wide")
-st.title("Multilingual Communication Assistant")
+st.set_page_config(page_title="TranslateEasy", layout="wide")
+st.title("TranslateEasy")
 st.caption("Voice & text translation (NLLB-200 + Sarvam) · Sign recognition (MediaPipe)")
 
 LANGS = {"English": "eng_Latn", "Hindi": "hin_Deva", "Punjabi": "pan_Guru",

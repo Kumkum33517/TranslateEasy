@@ -38,6 +38,7 @@ test.wav
 run_camera.command
 .DS_Store
 results/camera_error.log
+results/*.png
 
 # Secrets — never commit
 .env
